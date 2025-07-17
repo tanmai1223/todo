@@ -26,34 +26,22 @@ A simple and responsive **ToDo List Application** built using the **MERN stack**
 ## 📦 Local Setup Instructions
 
 ### **1. Clone the Repository**
-```bash
+
 git clone https://github.com/your-username/todo-mern.git
 cd todo-mern
-2. Setup Backend
-bash
-Copy
-Edit
+###  2. Setup Backend
+
 cd todoBackend
 npm install
 Make sure to update your server.js or connection file with your own MongoDB URI if needed:
-
-js
-Copy
-Edit
 mongoose.connect("your_mongo_uri", { useUnifiedTopology: true });
 Start the backend server:
-
-bash
-Copy
-Edit
 node server.js
 Backend will typically run on:
 👉 http://localhost:3000
 
-3. Setup Frontend
-bash
-Copy
-Edit
+### 3. Setup Frontend
+
 cd ../todo
 npm install
 npm start
@@ -61,10 +49,8 @@ The React app will launch in your browser (usually on http://localhost:5173 or h
 
 🛠️ Make sure your API fetch URLs inside React code (like fetch("http://localhost:3000/todo")) match the backend port.
 
-🗂️ Folder Structure
-pgsql
-Copy
-Edit
+##  🗂️ Folder Structure
+
 todo-mern/
 │
 ├── todoBackend/
@@ -77,16 +63,17 @@ todo-mern/
 │   ├── src/
 │   │   ├── components/
 │   │   └── App.js
-🙋‍♂️ Author
+
+## 🙋‍♂️ Author
 Hekkadka Tanmai
 📧 htanmai.23@gmail.com
 💻 MERN Stack Developer
 📍 Hyderabad, Telangana
 
-⭐ Support
+## ⭐ Support
 If you found this project helpful or learned something, consider giving it a ⭐ on GitHub!
 
-🔒 Note
+## 🔒 Note
 Currently, the configuration (like MongoDB URI and port numbers) is hardcoded inside the code for simplicity.
 In a production environment, it's strongly recommended to use environment variables and keep credentials secure using .env files.
 
