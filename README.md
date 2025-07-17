@@ -36,31 +36,36 @@ A simple and responsive **ToDo List Application** built using the **MERN stack**
 ## 📦 Local Setup Instructions
 
 ### **1. Clone the Repository**
-
+```bash
 git clone (https://github.com/tanmai1223/todo)
 cd todo
+```
 ###  2. Setup Backend
-
+```bash
 cd todoBackend
 npm install
+```
 Make sure to update your server.js or connection file with your own MongoDB URI if needed:
 mongoose.connect("your_mongo_uri", { useUnifiedTopology: true });
 Start the backend server:
+```bash
 node server.js
+```
 Backend will typically run on:
 👉 http://localhost:3000
 
 ### 3. Setup Frontend
-
+```bash
 cd ../todo
 npm install
 npm start
+```
 The React app will launch in your browser (usually on http://localhost:5173 or http://localhost:3000, depending on your Vite/React config).
 
 🛠️ Make sure your API fetch URLs inside React code (like fetch("http://localhost:3000/todo")) match the backend port.
 
 ##  🗂️ Folder Structure
-
+```bash
 todo-mern/
 │
 ├── todoBackend/
@@ -73,7 +78,7 @@ todo-mern/
 │   ├── src/
 │   │   ├── components/
 │   │   └── App.js
-
+```
 ## 🙋‍♂️ Author
 Hekkadka Tanmai
 📧 htanmai.23@gmail.com
