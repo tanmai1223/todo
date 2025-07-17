@@ -27,8 +27,8 @@ A simple and responsive **ToDo List Application** built using the **MERN stack**
 
 ### **1. Clone the Repository**
 
-git clone https://github.com/your-username/todo-mern.git
-cd todo-mern
+git clone (https://github.com/tanmai1223/todo)
+cd todo
 ###  2. Setup Backend
 
 cd todoBackend
@@ -68,6 +68,7 @@ todo-mern/
 Hekkadka Tanmai
 📧 htanmai.23@gmail.com
 💻 MERN Stack Developer
+🔗 [LinkedIn – Hekkadka Tanmai](https://www.linkedin.com/in/htanmai)  
 📍 Hyderabad, Telangana
 
 ## ⭐ Support
