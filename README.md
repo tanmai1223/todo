@@ -22,6 +22,16 @@ A simple and responsive **ToDo List Application** built using the **MERN stack**
 - **Database**: MongoDB (local or MongoDB Atlas)  
 
 ---
+## 🧪 Screenshots
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2296a42b-387c-420b-8744-1df7962bb476" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a4d2ad37-be9f-44fc-a816-097c9632d0dc" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/64735529-0249-4ce2-9df5-d843c8afe8ab" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c37977bd-076e-48d1-9657-a6356b179c50" />
+
+
+
+
 
 ## 📦 Local Setup Instructions
 
