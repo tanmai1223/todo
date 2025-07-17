@@ -6,51 +6,65 @@ A simple and responsive **ToDo List Application** built using the **MERN stack**
 
 ## 🚀 Features
 
-- ✅ Add new tasks
-- 📝 Edit existing tasks
-- ❌ Delete tasks
-- 📋 View all tasks
-- 💾 Persistent data using MongoDB
-- ⚙️ RESTful API with Express.js
+- ✅ Add new tasks  
+- 📝 Edit existing tasks  
+- ❌ Delete tasks  
+- 📋 View all tasks  
+- 💾 Persistent data using MongoDB  
+- ⚙️ RESTful API with Express.js  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB (local or MongoDB Atlas)
+- **Frontend**: React  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB (local or MongoDB Atlas)  
 
 ---
 
 ## 📦 Local Setup Instructions
 
-### 1. Clone the Repository
+### **1. Clone the Repository**
 ```bash
 git clone https://github.com/your-username/todo-mern.git
 cd todo-mern
-
-### 2. Setup Backend
+2. Setup Backend
+bash
+Copy
+Edit
 cd todoBackend
 npm install
 Make sure to update your server.js or connection file with your own MongoDB URI if needed:
+
+js
+Copy
+Edit
 mongoose.connect("your_mongo_uri", { useUnifiedTopology: true });
 Start the backend server:
+
 bash
 Copy
 Edit
 node server.js
-Backend will typically run on http://localhost:3000
+Backend will typically run on:
+👉 http://localhost:3000
 
-### 3. Frontend Setup
+3. Setup Frontend
+bash
+Copy
+Edit
 cd ../todo
 npm install
 npm start
-The React app will launch in your browser (usually on http://localhost:5173 or 3000 depending on your config).
-Make sure API fetch URLs inside your React code (like fetch("http://localhost:3000/todo")) are matching your backend port.
+The React app will launch in your browser (usually on http://localhost:5173 or http://localhost:3000, depending on your Vite/React config).
 
+🛠️ Make sure your API fetch URLs inside React code (like fetch("http://localhost:3000/todo")) match the backend port.
 
-## 🗂️ Folder Structure
+🗂️ Folder Structure
+pgsql
+Copy
+Edit
 todo-mern/
 │
 ├── todoBackend/
@@ -63,36 +77,16 @@ todo-mern/
 │   ├── src/
 │   │   ├── components/
 │   │   └── App.js
-
-
-
-## 🙋‍♂️ Author
+🙋‍♂️ Author
 Hekkadka Tanmai
 📧 htanmai.23@gmail.com
 💻 MERN Stack Developer
 📍 Hyderabad, Telangana
 
-## ⭐ Support
+⭐ Support
 If you found this project helpful or learned something, consider giving it a ⭐ on GitHub!
 
-## 🔒 Note
-Currently, the configuration (like MongoDB URI and port numbers) is hardcoded inside the code for simplicity. In a production environment, it's strongly recommended to use environment variables and keep credentials secure.
-
-Let me know if you want:
-- A `.gitignore` file setup
-- A future-ready section for deployment instructions
-- A badge-style README with icons/logos
-
-I'm happy to help you polish the repo further!
-
-
-
-
-
-
-
-
-
-
-
+🔒 Note
+Currently, the configuration (like MongoDB URI and port numbers) is hardcoded inside the code for simplicity.
+In a production environment, it's strongly recommended to use environment variables and keep credentials secure using .env files.
 
