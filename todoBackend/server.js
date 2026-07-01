@@ -17,7 +17,7 @@ mongoose
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://tododc.netlify.app",
+  "https://extraordinary-belekoy-a34f76.netlify.app",
 ];
 
 app.use(
